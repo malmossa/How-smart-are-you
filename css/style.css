@@ -38,6 +38,12 @@ h6 {
   box-shadow: none;
 }
 
+/* Remove the submit outline*/
+.quiz-form button:focus {
+  outline: none;
+  box-shadow: none;
+}
+
 .checklist > li i {
   color: var(--secondary-color);
 }
